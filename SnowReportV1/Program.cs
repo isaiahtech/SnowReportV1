@@ -27,6 +27,9 @@ namespace SnowReportV1
 
             HtmlNode lookSnow = lookoutDoc.DocumentNode.SelectSingleNode("/html/body/section/div/div/div[2]/div/div[5]/div/div[2]/div[2]/p");
             Console.WriteLine("Lookout Pass...\n" + "24 HR Snow: " + lookSnow.InnerHtml);
+
+            Console.WriteLine("\n\nHit Enter to quit");
+            Console.ReadLine();
         }
     }
 }
