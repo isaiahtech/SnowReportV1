@@ -7,6 +7,16 @@ namespace SnowReportV1
     {
         static void Main(string[] args)
         {
+            string filePath = @"D:\eMGP\csharp\Ski\SnowReportV1\SnowReportV1\mountain_data.csv";
+            CsvReader reader = new CsvReader(filePath);
+
+            Mountain[] mountains = reader.ReadFirstNMountains(3);
+
+            foreach (Mountain mountain in mountains)
+            {
+                Console.WriteLine($"{mountain.Name}, {mountain.State}");
+            }
+
             HtmlWeb web = new HtmlWeb();
             HtmlDocument schweitzerDoc = web.Load("https://www.schweitzer.com/discover/conditions-report/");
             HtmlDocument mtspokaneDoc = web.Load("https://www.mtspokane.com/mountain-conditions/");
