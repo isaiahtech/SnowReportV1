@@ -2,6 +2,14 @@
 using System;
 
 namespace SnowReportV1
+
+/* To-do List
+ * [1] Add scraped data from each mountain to csv file
+ * [1b] refactor to lookup mountain based on name and URL containing matching name
+ * [2] Strip data down to just numbers, convert to int
+ * [3] Create Historical Data
+ * [4] Post data to website daily @6am (or on update button)
+ */
 {
     class Program
     {
