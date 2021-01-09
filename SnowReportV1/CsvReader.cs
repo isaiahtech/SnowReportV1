@@ -39,6 +39,7 @@ namespace SnowReportV1
 
             string name = parts[0];
             string state = parts[1];
+            //int snow = parts[2];
 
             return new Mountain(name, state);
         }

@@ -8,7 +8,7 @@ namespace SnowReportV1
     {
         public string Name { get; }
         public string State { get; }
-        //public string Snow { get; }
+        //public string Snow { get; set; }
 
         public Mountain(string name, string state)
         {
