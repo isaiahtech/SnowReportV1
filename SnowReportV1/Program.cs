@@ -19,6 +19,15 @@ namespace SnowReportV1
             HtmlDocument mtspokaneDoc = web.Load("https://www.mtspokane.com/mountain-conditions/");
             HtmlDocument lookoutDoc = web.Load("https://skilookout.com/snow-report");
 
+            // Testing Method to pull data from CSV and refactor code
+
+            void PrintSnowReport(string mountainName, int mountainSnow)
+            {
+                Console.WriteLine(mountainName + "\n" + "24 HR Snow: " + mountainSnow + '"' + "\n");
+            }
+
+            PrintSnowReport("Alta", 60);
+
             // Schweitzer recent snow sch
 
             HtmlNode schSnow = schweitzerDoc.DocumentNode.SelectSingleNode("/html/body/main/div/div/div/div[3]/div/div/div/div/div[2]/div[2]/div[2]/div[2]/h2");
