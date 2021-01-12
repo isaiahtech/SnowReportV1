@@ -11,6 +11,8 @@ namespace SnowReportV1
         {
             // Create method here to Pull SnowReport data and write it to a CSV
 
+            // Importing CSV, reading mountain snow reports
+
             string filePath = @"D:\eMGP\csharp\Ski\SnowReportV1\SnowReportV1\mountain_data.csv";
             CsvReader reader = new CsvReader(filePath);
 
