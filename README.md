@@ -7,3 +7,5 @@ Currently pulls data directly from mountain snow reports for
 - Mt Spokane
 
 Actively adding new features
+
+![](SnowReportV1/images/jan21_preview_01.JPG)
