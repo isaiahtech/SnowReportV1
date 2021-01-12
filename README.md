@@ -8,4 +8,4 @@ Currently pulls data directly from mountain snow reports for
 
 Actively adding new features
 
-![](SnowReportV1/images/jan21_preview_01.JPG)
+![](SnowReportV1/images/jan_preview.JPG)
